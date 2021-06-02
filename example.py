@@ -24,8 +24,8 @@ def get_args():
     parser.add_argument(
         "--model",
         type=str,
-        default='mlsd/tflite_models/M-LSD_512_large_fp32.tflite')
-    parser.add_argument("--model_shape", type=int, default=512)
+        default='mlsd/tflite_models/M-LSD_320_tiny_fp32.tflite')
+    parser.add_argument("--model_shape", type=int, default=320)
     parser.add_argument("--top_n", type=int, default=1)
 
     parser.add_argument("--score", type=float, default=0.1)
